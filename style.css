@@ -1,0 +1,84 @@
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{ background-color: white; font-family: 'Roboto', Arial, Helvetica, sans-serif; font-size: 13px; height: 100%;}
+
+#page-container { height: 100vh; }
+
+
+
+
+
+/****  begin navbar  ****/
+
+nav { display: table; height: 60px; width: 100vw;}
+
+#nav-wrap{ padding: 16px 20px 0px 20px;}
+
+.first { padding-top: 9px; float: left; }
+
+.second { float: right; }
+
+ul li { display: inline-block; }
+
+nav ul li a { text-decoration: none; padding: 0px 15px 0px 0px}
+
+nav ul li a:hover { text-decoration: underline; }
+
+nav ul li a:link, nav ul li a:visited { color: #1b1b1b; }
+
+/*A little unconventional in terms of individual alignment, but it's what I got until flexbox and grid.*/
+.square #applauncher { vertical-align: top; margin-top: -1px; font-size: 18px; color: #747474; margin-right: 10px; }
+
+.sign-in { width: 70px; height: 30px; border: none; border-radius: 3px; font-size: 14px; color: white; background-color: #4583EC; margin-left: 5px;}
+
+
+/****  end navbar  ****/
+
+
+
+
+
+
+/****  Begin Main section; where the juice of it is!  ****/
+
+main section { width: 582px; margin: 0 auto; text-align: center; margin-top: 130px; }
+
+.represent { margin-bottom: 45px; }
+
+#search-bar { border: 1px solid #DFE1E5; border-radius: 24px; width: 582px; height: 44px; display: block; }
+
+#search-bar:hover { box-shadow: 0px 1px 5px lightgray; }
+
+.search-input { font-size: 16px; border: none; margin-left: 22px; margin-top: 12px; width: 510px; float: left; }
+
+#search { width: 24px; height: 24px; float: right; padding: 10px 18px 0px 0px; }
+
+.buttons { height: 40px; width: 125px; background-color: #f2f2f2; color: #5F6368; border-radius: 4px; margin: 30px 0px 0px 10px; border: none; }
+
+/****  End Main Section  ****/
+
+
+
+
+
+
+/****  Begin Footer  ****/
+
+footer { color: #5F6368; position: absolute; bottom: 0; width: 100%; display: table; }
+
+#footer-wrap { border: 1px solid #e4e4e4; background-color: #f2f2f2; height: 40px; width: 100vw; display:table-cell; width:100%; vertical-align:middle; padding: 0px 20px 0px 20px; }
+
+.first-footer {float: left;}
+
+.second-footer {float: right;}
+
+footer ul li {display: inline-block;}
+
+footer ul li a {text-decoration: none; padding: 0px 10px}
+
+footer ul li a:link, footer ul li a:visited {color: #5F6368;}
+
+footer ul li a:hover {text-decoration: underline;}
+
+/****  End Footer  ****/

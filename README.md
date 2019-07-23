@@ -1,0 +1,1 @@
+Hello all! The point of this project was to test my skills in recreating Google's homepage using solely HTML and CSS; in time, I hope to add Javascript to make render this clone fully functional! Big thanks to The Odin Project.

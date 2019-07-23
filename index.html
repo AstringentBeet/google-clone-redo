@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--A small scale project where I recreate Google-->
+<html lang="en">
+    <head>
+        <link rel="shortcut icon" type="image/png" href="//Users/alexandereffanga/Documents/Dev/odin/web101/google-clone-redo/favicon.png"/>
+        <link rel="stylesheet" type="text/css" href="/Users/alexandereffanga/Documents/Dev/odin/web101/google-clone-redo/reset.css">
+        <link rel="stylesheet" type="text/css" href="/Users/alexandereffanga/Documents/Dev/odin/web101/google-clone-redo/style.css">
+        <meta charset="utf-8">
+        <title>Google</title>
+    </head>
+    <body>
+        <div id="page-container">
+            <header>
+                <nav>
+                    <ul>
+                        <div id="nav-wrap">    
+                            <div class = "first">    
+                                <li><a href="https://about.google/intl/en/">About</a></li>
+                                <li><a href="https://store.google.com/">Store</a></li>
+                            </div>
+                            <div class ="second">
+                                <li><a href="https://gmail.com/">Gmail</a></li>
+                                <!--I tried to mimic Google's app launcher to the best of my ability (with some help from-
+                                    code pen). I'll be adding more updates to it periodically.-->
+                                <li><a href="https://www.google.com/imghp?hl=en">Images</a></li>
+                                <li><div class="launcher">
+                                        <div class="square">
+                                            <i class="fa fa-th fa-2x" id="applauncher"></i>
+                                        </div>
+                                    </div></li>
+                                <li> <a href="https://google.com"><button class="sign-in">Sign in</button></a></li>
+                            </div>
+                        </div>        
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <section>
+                    <img class= represent src="/Users/alexandereffanga/Documents/Dev/odin/web101/google-clone-redo/google-logo.png">
+                    <div id="search-bar">
+                        <form>
+                            <input class="search-input" type="search">
+                            <img id="search" src="/Users/alexandereffanga/Documents/Dev/odin/web101/google-clone-redo/killa-mic.png">
+                        </form>
+                    </div>
+                    <!--Note to self: Add JS functionality so it actualy mimcs a google search.-->
+                    <form action="#" method ="GET">
+                            <button class="buttons" type="submit" value="Google_Search">Google Search</button>
+                            <button class="buttons" type="submit" value="I'm Feeling Lucky">I'm Feeling Lucky</button>
+                    </form>
+                </section>
+            </main>
+            <footer>
+                <div id="footer-wrap">    
+                    <ul>
+                        <div class="first-footer">
+                            <li><a href="https://ads.google.com/home/">Advertising</a></li>
+                            <li><a href="https://www.google.com/services/#?modal_active=none">Business</a></li>
+                            <li><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
+                        </div>
+                        <div class="second-footer">
+                            <li><a href="https://policies.google.com/privacy?hl=en&gl=us">Privacy</a></li>
+                            <li><a href="https://policies.google.com/terms?hl=en&gl=us">Terms</a></li>
+                            <li><a href="https://www.google.com/preferences?hl=en">Settings</a></li>     
+                        </div>           
+                    </ul>
+                </div>
+            </footer>
+        </body>
+    </div>
+</html>
